@@ -1,0 +1,45 @@
+/*главная*/
+.main {
+height: 2349px;
+width: 1600px;
+    
+position: relative;
+width: 1600px;
+height: 2349px;
+background: #FFFFFF;
+}
+
+.webstudio{
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+
+
+
+
+
+/*Портфолио*/
+.portfolio{
+Width: 1600px;
+Height: 1880px;
+Left: 75px;
+
+position: relative;
+width: 1600px;
+height: 1880px;
+background: #FFFFFF;
+}
