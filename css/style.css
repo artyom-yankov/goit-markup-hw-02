@@ -37,7 +37,7 @@ body{
     color: #2196f3;
 }
 
-.web-link {
+.web-link a{
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -47,11 +47,11 @@ text-decoration: none;
 }
 
 .web-link a:hover,
-.web-link a:focus{
+.web-link a:focus {
  color: var(--hover-text-color);
 }
 
-.Mail-tel {
+.Mail-tel a{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -176,7 +176,7 @@ footer {
     color:#FFFFFF;
     font-weight: 700;
  }
- .logo-web-f{
+ .logo-web-f {
      color: #2196f3;
  }
 
@@ -189,8 +189,12 @@ footer {
     color: #FFFFFF;
 }
 
-.contacts {
-color: rgba(255, 255, 255, 0.6);
+.contacts a{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
  
 /*portfolio*/
