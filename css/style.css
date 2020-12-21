@@ -115,7 +115,7 @@ color: #212121;
 
 /*team*/
 
-.team {
+.title-team {
 font-size: 36px;
 line-height: 42px;
 text-align: center;
@@ -123,11 +123,15 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
+.cards-of-team {
+text-align: center;
+}
+
 .igor {
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-
+text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
@@ -137,6 +141,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 0.03em;
+text-align: center;
 color: #212121;
 }
 
@@ -146,6 +151,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 0.03em;
+text-align: center;
 color: #212121;
 }
 
@@ -154,8 +160,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 19px;
 letter-spacing: 0.03em;
+text-align: center;
 color: #212121;
 }
+
 
 
 .his-job {
@@ -182,6 +190,8 @@ footer {
 
 
 .address {
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px; 
