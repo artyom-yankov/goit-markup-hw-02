@@ -9,7 +9,7 @@
     --hover-text-color: #2196f3;
    } 
 
-   /*общие*/
+   /*общие<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 a{
     text-decoration: none;
    }
@@ -23,26 +23,27 @@ li{
 body{
     font-family: Roboto;
    }
+   /*/общие>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-   /*шапка*/
+   /*шапка<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .logo {
    font-family: Raleway;
    font-size: 26px;
-   line-height: 31px;
+   line-height: 1.19;
    letter-spacing: 0.03em;
-   color:#212121;
+   color: var(--text-black-color);
    font-weight: 700;
 }
 .logo-web{
-    color: #2196f3;
+    color: var(--hover-text-color);
 }
 
 .web-link a{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color :#212121;
+color : var(--text-black-color);
 text-decoration: none;
 }
 
@@ -54,23 +55,25 @@ text-decoration: none;
 .Mail-tel a{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color:#757575;
+    color: var(--text-grey-color);
 }
 .Mail-tel a:hover,
 .Mail-tel a:focus {
  color: var(--hover-text-color);
 }
+    /*/шапка>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+    /*Герой<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .h1 {
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--text-wite-color);
 }
 
 .header-link {
@@ -85,42 +88,46 @@ color: #FFFFFF;
 }
 
 .main-section {
-background: #2F303A;
+background: var(--footer-background-color);
 }
-/*service*/
+    /*/Герой>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    /*service<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .h3 {
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color:  var(--text-black-color);
 }
 
 .service {
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-grey-color);
 }
+    /*/service>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-/* we do*/
+    /* we do<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .we-do {
 font-size: 36px;
-line-height: 42px;
+line-height: 1.67px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:  var(--text-black-color);
 }
+    /*/ we do>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-/*team*/
+    /*team<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .title-team {
 font-size: 36px;
-line-height: 42px;
+line-height: 1.67;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:  var(--text-black-color);
 }
 
 .cards-of-team {
@@ -130,62 +137,63 @@ text-align: center;
 .igor {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color:  var(--text-black-color);
 }
 
 .oliga {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 text-align: center;
-color: #212121;
+color:  var(--text-black-color);
 }
 
 
 .nikolai {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 text-align: center;
-color: #212121;
+color:  var(--text-black-color);
 }
 
 .mihail {
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 text-align: center;
-color: #212121;
+color:  var(--text-black-color);
 }
-
-
 
 .his-job {
 font-weight: 400;
-color: #757575;
+color: var(--text-grey-color);
 }
 
-/*address*/
+    /*/team>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+    /*address<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 footer {
-    background: #2F303A;
+    background: var(--footer-background-color);
 }
 
 .logo-f {
     font-family: Raleway;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color:#FFFFFF;
+    color: var(--text-wite-color);
     font-weight: 700;
  }
+
  .logo-web-f {
-     color: #2196f3;
+     color: var(--hover-text-color);
  }
 
 
@@ -194,36 +202,39 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px; 
+    line-height: 1.71; 
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--text-wite-color);
 }
 
 .contacts a{
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+    /*/address>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
  
-/*portfolio*/
+    /*address<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .work-cards {
 font-weight: bold;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color:  var(--text-black-color);
 }
 
 .do {
 font-weight: 400;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-grey-color);
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--hover-text-color);
   color: var(--text-wite-color);
+    /*/address>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
